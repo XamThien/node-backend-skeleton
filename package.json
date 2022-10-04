@@ -1,0 +1,34 @@
+{
+  "name": "node-backend-skeleton",
+  "version": "1.0.0",
+  "description": "CIS Bussiness Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test",
+    "test-watch": "jest --watch",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Bussiness",
+    "Service"
+  ],
+  "author": "Hoan DINH",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.7.0",
+    "neode": "^0.3.7",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^22.0.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^6.2.4"
+  }
+}
